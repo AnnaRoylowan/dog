@@ -1,0 +1,235 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    color: #3A2E2E;
+    width: 1440px;
+    height: 981px;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+
+    width: 1620px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: black;
+    width: 1920px;
+    height: 100px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: baseline;
+    gap: 100px;
+    padding: 32px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-link {
+    color: rgba(255, 255, 255, 1);
+    font-family: Oswald;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+
+
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+}
+
+.hero-img {
+    width: 800;
+    height: 800;
+    top: 100px;
+    left: 970px;
+    
+}
+
+.hero-wrapp {
+    padding-top: 150px;
+    padding-left: 150px;
+    
+    
+
+}
+
+.hero-subtitle {
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 64px;
+
+    text-transform: capitalize;
+    width: 478px;
+    height: 750px;
+
+
+
+}
+
+.hero-span {
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    text-transform: capitalize;
+
+
+}
+
+.hero-button {
+    background: rgba(178, 255, 166, 1);
+    font-family: Oswald;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    width: 364px;
+    height: 66px;
+  
+}
+.aboutus{
+    background-color:  rgba(239, 239, 239, 1);
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 1990px;
+height: 742px;
+top: 900px;
+border-width: 1px;
+
+
+}
+.aboutus-container{
+    display: flex;
+    align-items: center;
+}
+.aboutus-wrapper{
+padding-top: 97px;
+padding-right: 150px;
+padding-bottom: 99px;
+padding-left: 78px;
+
+}
+.aboutus-img{
+    width: 642px;
+height: 642px;
+padding-left: 150px;
+
+}
+.aboutus-title{
+width: 430px;
+height: 47px;
+    font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+text-transform: capitalize;
+padding-bottom: 30px;
+}
+
+.aboutus-text{
+width: 800px;
+height: 34px;
+padding-bottom: 30px;
+}
+.aboutus-button{
+    background: rgba(178, 255, 166, 1);
+    width: 286;
+
+top: 1477px;
+left: 970px;
+border-radius: 5px;
+padding-top: 15px;
+padding-right: 80px;
+padding-bottom: 15px;
+padding-left: 80px;
+gap: 10px;
+}
+.guaranteed{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.guaranteed-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 115px;
+   width: 929px;
+   height: 406px;
+
+
+}
+.guaranteed-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 407px;
+height: 209px;
+}
+.guaranteed-title{
+    width: 316px;
+height: 48px;
+font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+text-transform: capitalize;
+}
+
+.guaranteed-text{
+    width: 330px;
+height: 112px;
+font-family: Raleway;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+.services-list{
+    display: flex;
+    justify-content: space-between;
+}
