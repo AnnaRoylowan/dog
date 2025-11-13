@@ -5,6 +5,7 @@ body {
     width: 1420px;
     height: 981px;
 
+
 }
 
 ul {
@@ -110,6 +111,7 @@ ul {
 
 /* .aboutus */
 .aboutus {
+    
     background-color: rgba(239, 239, 239, 1);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     width: 1990px;
@@ -121,6 +123,7 @@ ul {
 }
 
 .aboutus-container {
+    
     display: flex;
     align-items: center;
     gap:78px ;
@@ -169,8 +172,9 @@ ul {
 }
 
 .guaranteed-container {
-    padding-bottom: 191px;
+   
     display: flex;
+    
     
 }
 
@@ -179,6 +183,8 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
     gap: 115px;
+     padding-top: 191px ;
+    
 
 
 
